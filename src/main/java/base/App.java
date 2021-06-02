@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class App {
     Scanner input = new Scanner(System.in);
 
-    //main
     public static void main(String[] args) {
         App myApp = new App();
 

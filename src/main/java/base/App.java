@@ -10,7 +10,7 @@ public class App {
 
         String name = myApp.ReadInput();
         String outputString = myApp.WriteLength(name);
-        myApp.PrintLength(outputString);
+        myApp.PrintOutput(outputString);
     }
 
     public String ReadInput() {
@@ -23,7 +23,7 @@ public class App {
         return name + " has " + length + " characters.";
     }
 
-    public void PrintLength(String outputString) {
+    public void PrintOutput(String outputString) {
         System.out.println(outputString);
     }
 }
